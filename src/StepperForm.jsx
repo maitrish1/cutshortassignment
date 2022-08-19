@@ -45,7 +45,7 @@ export default function StepperForm() {
               firstPlaceholder={"Steve Jobs"}
               secondPlaceholder={"Steve"}
             />
-            <Workspace />
+           
           </Stack>
         );
 
@@ -85,7 +85,7 @@ export default function StepperForm() {
               firstPlaceholder={"Eden"}
               secondPlaceholder={"Example"}
             />
-            <Workspace />
+           
           </Stack>
         );
       case 2:
@@ -124,7 +124,7 @@ export default function StepperForm() {
               </div>
             </Stack>
 
-            <Workspace />
+           
           </Stack>
         );
       case 3:
@@ -144,7 +144,7 @@ export default function StepperForm() {
               />
             </Stack>
 
-            <Workspace />
+            
           </Stack>
         );
       default:
@@ -206,13 +206,14 @@ export default function StepperForm() {
           >
             {getStepContent(activeStep)}
             <Stack gap={3} direction="row">
-              <Button
+              {/* <Button
                 sx={{ bgcolor: "#664de5", textTransform: "none" }}
                 variant="contained"
                 onClick={handleNext}
               >
                 {activeStep === steps.length - 1 ? "Finish" : "Next"}
-              </Button>
+              </Button> */}
+              <Workspace handleNext={handleNext}/>
             </Stack>
           </div>
         )}
