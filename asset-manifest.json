@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cutshortassignment/static/css/main.e6c13ad2.css",
+    "main.js": "/cutshortassignment/static/js/main.76469b58.js",
+    "static/media/new_logo_half.webp": "/cutshortassignment/static/media/new_logo_half.5f1099b14bc167ad4c4a.webp",
+    "index.html": "/cutshortassignment/index.html",
+    "main.e6c13ad2.css.map": "/cutshortassignment/static/css/main.e6c13ad2.css.map",
+    "main.76469b58.js.map": "/cutshortassignment/static/js/main.76469b58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.76469b58.js"
+  ]
+}
